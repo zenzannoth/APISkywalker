@@ -1,14 +1,15 @@
 import './App.css';
+import React from "react";
 import Skywalker from './components/Skywalker';
-import { Router, Link } from "@reach/router"
+// import { Router} from "@reach/router"
+
 
 function App() {
+
   return (
     <div className="App">
       <header className="App-header">
-        <Router>
-        <Skywalker path="/" />
-        </Router>
+        <Skywalker />
         
       </header>
     </div>
